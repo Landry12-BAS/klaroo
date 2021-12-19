@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 18px;
+    font-family: "Poppins", sans-serif;
+    color: rgb(30, 30, 107);
+    /* background-color:rgba(30, 30, 107, 0.274) ; */
+    margin-right: 80px;
+    margin-left: 80px;
+}
+
+.image img{
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    height: 800px;
+    border-bottom-right-radius: 350px;
+}
+div.jumbotron{
+    background: none;
+    padding-top: 20px;
+}
+
+div.jum{
+    padding-top: 80px;
+}
+.jum h1{
+    text-transform:unset;
+}
+
+section.we{
+    background: url(images/friend.png);
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    border-top-left-radius: 150px;
+ 
+}
+
+section div{
+    color:#fff;
+    text-align: center;
+}
+
+.text p{
+    margin-left: 40px;
+    margin-right: 40px;
+    text-align: justify;
+}
+
+a{
+    border: 2px solid rgb(255, 253, 253);
+    padding: 10 18px;
+    text-decoration: none;
+    color: blanchedalmond;
+}
+
+a:hover{
+    background-color:rgb(30, 30, 107);
+    color: white;
+}
+@media only screen and (max-width: 768px) {
+    .image img{
+        width: 100%;
+        border-bottom-right-radius: 150px;
+        background-position: center;
+        background-size: cover;
+        height: auto;
+    }
+    section div{
+        color:#fff;
+        text-align: center;
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+
+    html{
+     
+        color: rgb(30, 30, 107);
+        background-color:rgba(30, 30, 107, 0.274) ;
+        margin-right: 0;
+        margin-left: 0;
+    }
+}
